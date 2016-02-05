@@ -2,6 +2,7 @@ package lecture2;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Stack;
 
 import lecture2.Card.Rank;
@@ -25,7 +26,14 @@ public class Deck
 	// There are different ways of doing this (left as an exercise).
 	public List<Card> getCards()
 	{
-		return Collections.unmodifiableList(aCards);
+		ArrayList<Card> lCards = new ArrayList<Card>();
+		
+		for( Card card: aCards){
+			lCards.add(new Card(card));
+		}
+		
+		return lCards;
+		//return Collections.unmodifiableList(aCards);
 	}
 	
 	public Deck( Deck pDeck )

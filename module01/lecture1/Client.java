@@ -20,6 +20,7 @@ public final class Client
 	 */
 	public static void main(String[] pArgs)
 	{
+		System.out.println("l23");
 		Card[] deck = new Card[RANKS.length * SUITS.length];
 		
 		for( Card.Suit suit : Card.Suit.values())
