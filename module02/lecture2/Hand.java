@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import ca.mcgill.comp303.module02.lecture2.Card.Rank;
+import lecture2.Card.Rank;
 
 public class Hand implements Iterable<Card>
 {

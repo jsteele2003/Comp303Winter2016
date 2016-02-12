@@ -6,8 +6,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 
-import ca.mcgill.comp303.module02.lecture2.Card.Rank;
-import ca.mcgill.comp303.module02.lecture2.Card.Suit;
+import lecture2.Card.Rank;
+import lecture2.Card.Suit;
 
 /**
  * An iterable implementation of cards.

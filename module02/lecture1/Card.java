@@ -1,4 +1,4 @@
-package ca.mcgill.comp303.module02.lecture1;
+package lecture1;
 
 import java.util.ArrayList;
 import java.util.Collections;

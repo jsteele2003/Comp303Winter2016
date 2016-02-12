@@ -1,12 +1,12 @@
-package ca.mcgill.comp303.module02.lecture1;
+package lecture1;
 
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 
-import ca.mcgill.comp303.module02.lecture1.Card.Rank;
-import ca.mcgill.comp303.module02.lecture1.Card.Suit;
+import lecture1.Card.Rank;
+import lecture1.Card.Suit;
 
 /**
  * An iterable implementation of cards.

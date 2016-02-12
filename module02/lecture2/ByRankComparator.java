@@ -2,7 +2,7 @@ package lecture2;
 
 import java.util.Comparator;
 
-import ca.mcgill.comp303.module02.lecture1.Card;
+import lecture2.Card;
 
 public class ByRankComparator implements Comparator<Card>
 {

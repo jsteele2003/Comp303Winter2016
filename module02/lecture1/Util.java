@@ -1,6 +1,6 @@
-package ca.mcgill.comp303.module02.lecture1;
+package lecture1;
 
-import ca.mcgill.comp303.module02.lecture1.Card.Suit;
+import lecture1.Card.Suit;
 
 public class Util
 {

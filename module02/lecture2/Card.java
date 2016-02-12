@@ -2,7 +2,7 @@ package lecture2;
 
 import java.util.Comparator;
 
-import ca.mcgill.comp303.module02.lecture2.Card.Rank;
+import lecture2.Card.Rank;
 
 /**
  * Same as version 7. My last example.
