@@ -1,4 +1,6 @@
 package labtest01;
+import java.util.Collections;
+import java.util.Arrays;
 
 /**
  * Utility class with a driver program and some 
@@ -19,9 +21,16 @@ public final class Driver
 	 */
 	public static void main(String[] pArgs)
 	{
+		Arrays.sort(ITEMS, Item.getPriceComparator());
 		for( Item item : ITEMS )
 		{
 			System.out.println(item.getName());
 		}
+		
+	}
+	
+	public void sort()
+	{
+		Arrays.sort(ITEMS, Item.getPriceComparator());
 	}
 }

@@ -13,7 +13,7 @@ public class Item implements Comparable<Item>, Cloneable
 	private final int aPrice; // In cents: 100 = one dollar
 
 	
-	
+	@Override
 	public Item clone() 
 	{
 		try
@@ -29,7 +29,8 @@ public class Item implements Comparable<Item>, Cloneable
 	
 	@Override
 	public int compareTo(Item pItem){
-		
+		if (aPrice < pItem.aPrice ) return -1;
+		if (aPrice > pItem.aPrice ) return 1;
 		return 0;
 	}
 	
@@ -40,7 +41,7 @@ public class Item implements Comparable<Item>, Cloneable
 			@Override
 			public int compare(Item o1, Item o2)
 			{
-				return o1.aPrice - o2.aPrice;
+				return o1.compareTo(o2);
 			}
 		};
 	}

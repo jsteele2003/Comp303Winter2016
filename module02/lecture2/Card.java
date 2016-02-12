@@ -117,7 +117,7 @@ public class Card implements Comparable<Card>
 			public int compare(Card o1, Card o2)
 			{
 				return o1.getSuit().ordinal() - o2.getSuit().ordinal();
-			}};
+			};
 	}
 
 }

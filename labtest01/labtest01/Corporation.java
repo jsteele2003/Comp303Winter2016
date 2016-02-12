@@ -10,7 +10,7 @@ import java.util.Map;
 public class Corporation
 {
 	private static Corporation instance = null;
-	protected Corporation()
+	private Corporation()
 	{
 		
 	}

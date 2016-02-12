@@ -1,5 +1,6 @@
 package labtest01;
 
+import java.util.Collections;
 import java.util.HashMap;
 
 /**
@@ -20,6 +21,11 @@ public class Inventory
 	{
 		aName = pName;
 	}
+	
+//	public void sort()
+//	{
+//		Collections.sort(aInventory, Item.getPriceComparator());
+//	}
 	
 	/**
 	 * @return The unique name of this inventory.
