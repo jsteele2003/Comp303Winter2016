@@ -9,6 +9,21 @@ import java.util.Map;
  */
 public class Corporation
 {
+	private static Corporation instance = null;
+	protected Corporation()
+	{
+		
+	}
+	
+	public static Corporation getInstance() 
+	{
+		if(instance == null)
+		{
+			instance = new Corporation();
+		}
+		return instance;
+	}
+	
 	private Map<String, Inventory> aInventories = new HashMap<String, Inventory>();
 	
 	/**
