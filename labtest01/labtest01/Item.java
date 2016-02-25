@@ -6,7 +6,7 @@ import java.util.Comparator;
  * Jar of peanut butter, package of pasta,
  * whatever.
  */
-public class Item implements Comparable<Item>, Cloneable
+public class Item implements Comparable<Item>, Cloneable, ItemInterface
 {
 	private final String aName;
 	private final int aId;

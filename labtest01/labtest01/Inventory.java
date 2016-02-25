@@ -7,7 +7,7 @@ import java.util.HashMap;
  * Represents the inventory of a 
  * physical grocery store.
  */
-public class Inventory
+public class Inventory 
 {
 	private final String aName; // Unique
 	private final HashMap<Item, Integer> aInventory = new HashMap<>();
