@@ -23,8 +23,9 @@ public class Reflector
 		for( Method m : cardClass1.getDeclaredMethods())
 		{
 			System.out.println(m.getName());
+			
 		}
-		
+		System.out.println("finished first loop");
 		List<Method> noArgs = new ArrayList<>();
 		for( Method m : cardClass1.getDeclaredMethods() )
 		{
